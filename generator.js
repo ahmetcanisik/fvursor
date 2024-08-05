@@ -89,8 +89,8 @@ class Fvursor {
 
 // If the file name is accessed directly via the console, then these codes will work.
 if (require.main === module) {
-    Fvursor.run();
-    Fvursor.run(true, "fvursor.min.css");
+    Fvursor.run(false, "index.css");
+    Fvursor.run(true, "min/index.css");
 }
 
 

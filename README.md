@@ -1,4 +1,4 @@
-# Fvursor v0.0.5
+# Fvursor v0.0.6
 
 ![Preview](https://cdn.jsdelivr.net/gh/ahmetcanisik/fvursor/media/preview.gif)
 
