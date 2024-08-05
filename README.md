@@ -1,6 +1,6 @@
-# Fvursor v0.0.4
+# Fvursor v0.0.5
 
-![Preview](./media/preview.gif)
+![Preview](https://cdn.jsdelivr.net/gh/ahmetcanisik/fvursor/media/preview.gif)
 
 It wouldn't be bad to use a few custom cursors, like [figma](https://figma.com) does.
 
