@@ -1,8 +1,8 @@
 {
     "name": "fvursor",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Perfect for using custom cursors.",
-    "main": "index.js",
+    "main": "index.css",
     "repository": {
       "type": "git",
       "url": "git+https://github.com/ahmetcanisik/fvursor.git"
