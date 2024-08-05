@@ -43,7 +43,7 @@ class Fvursor {
                 }
     
                 CURSORS.forEach(cursor => {
-                    css += `   --cursor-${cursor}: url('https://cdn.jsdelivr.net/gh/ahmetcanisik/mycursor/cursor/${mode}/${cursor}.svg');\n`;
+                    css += `   --cursor-${cursor}: url('https://cdn.jsdelivr.net/gh/ahmetcanisik/fvursor/cursor/${mode}/${cursor}.svg');\n`;
                 });
     
                 if (mode === "light") {
