@@ -3,25 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./mycursor.min.css">
+    <title>Fvursor Test</title>
+    <link rel="stylesheet" href="./min/index.css">
     <style>
-        a {
-            cursor: url("cursor/light/wait.svg"), wait;
+        * {
+            top: 0;
+            left: 0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            display: grid;
+            flex-direction: column;
+            place-items: center;
+            min-height: 100vh;
+            cursor: var(--cursor-default), default;
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,'Ubuntu Sans',"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        }
+        .cursor-test-area {
+            border-radius: 16px;
+            padding: 10px 20px;
+            width: 300px;
+            gap: 20px;
+            div {
+                margin: 20px 0;
+                border-radius: 8px;
+                font-size: larger;
+                font-weight: 600;
+                padding: 20px;
+                outline: 1px solid black;
+            }
         }
     </style>
 </head>
 <body>
-    <a href="#">go to url</a>
-    <br><br><br><br>
-    <div class="cursor-text">
-        Hello, we are not allowed to touch this area
-    </div>
-    <div class="cursor-wait">
-        Hello, we are not allowed to touch this area
-    </div>
-    <div class="cursor-progress">
-        Hello, we are not allowed to touch this area
+    <div class="cursor-test-area">
+        <div class="cursor-default">Try it Cursor Default </div>
+        <div class="cursor-pointer">Try it Cursor Pointer </div>
+        <div class="cursor-not-allowed">Try it Cursor Not Allowed </div>
+        <div class="cursor-progress">Try it Cursor Progress </div>
+        <div class="cursor-text">Try it Cursor Text </div>
+        <div class="cursor-wait">Try it Cursor Wait </div>
     </div>
 </body>
 </html>
